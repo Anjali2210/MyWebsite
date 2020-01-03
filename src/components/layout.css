@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  background: url("../images/anjali.png");
+  background-image: url("../images/anjali.png");
   background-size: cover;
   background-position-x: 100px;
   background-repeat: no-repeat;
