@@ -4,18 +4,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import "./index.css"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div
-      style={{
-        display: `flex`,
-        flexDirection: `row`,
-        width: `100%`,
-        alignItems: `center`,
-      }}
-    >
-      <div>
+    <div className="main">
+      <div className="info-myself">
         <h1>
           Hello, I'm <span style={{ color: `#634c9c` }}>Anjali Dube</span>.
         </h1>
