@@ -9,7 +9,7 @@ import "./index.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Anjali Dube" />
     <Header />
     <div className="main">
       <div className="info-myself">
